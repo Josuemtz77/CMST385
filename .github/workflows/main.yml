@@ -28,9 +28,9 @@ jobs:
 
       with:
 
-        app-name: 'cmst385-jmartinez3092970'
+        app-name: 'CMST385-jmartinez344'
 
         slot-name: 'production'
 
-        publish-profile: ${{ secrets.AppServiceCMST385 }}
+        publish-profile: ${{ APPSERVICECMST385 }}
 
