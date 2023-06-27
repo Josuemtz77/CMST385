@@ -1,1 +1,113 @@
-
+body {
+    background-color: #382b2b;
+    background-image: url(1980Stockholmlive.png);
+    background-repeat: no-repeat;
+    background-size: 2000px 1500px;
+    margin: 0px;
+}
+.header { 
+    font-size: x-large;
+    background-image: url(acdcbackground.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 70px;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #382b2b;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: sticky;
+    position: -webkit-sticky; /*For Safari User*/
+    top: 0;
+}
+#navlist {
+    float: right;
+    display:inline; 
+    color: rgb(0, 0, 0);
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+#topnav {
+    overflow: hidden;
+    background-color: #382b2b;
+}
+#topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#topnav a:hover {
+    background-color: #7a5337;
+    color: rgb(0, 0, 0);
+    margin: 0;
+}
+.INDEXh1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    padding: 345px;
+}
+.MUSICh2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 150px;   
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 29%;
+    padding: 15px;
+  } 
+  /* Clear floats after the columns */
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+}
+p {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    margin: 10px;
+}
+li {
+    color: rgb(255, 255, 255);
+    padding-left: 0px;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.newsh2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 92px;
+    text-align: center;
+    margin-bottom: 250px;  
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
