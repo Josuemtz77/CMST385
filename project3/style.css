@@ -1,4 +1,5 @@
 body {
+    font-family:  Arial, sans-serif;
     background-color: #382b2b;
     background-image: url(1980Stockholmlive.png);
     background-repeat: no-repeat;
@@ -49,14 +50,12 @@ ul {
     margin: 0;
 }
 h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 60px;
     text-align: center;
     padding: 345px;
 }
 h2 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
     font-size: 60px;
     text-align: center;
@@ -81,20 +80,19 @@ h2 {
     }
 }
 p {
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: .5px rgb(255, 255, 255);
     font-size: 25px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: left;
     margin: 10px;
 }
 li {
-    -webkit-text-stroke: 1px rgb(255, 255, 255);
+    -webkit-text-stroke: .5px rgb(255, 255, 255);
     padding-left: 0px;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+
