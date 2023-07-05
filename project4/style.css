@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     color: #000000;
     background-color: #b8b8b8;
-    border-style: solid, 2px, black;
 }
 header { 
     background-image: url(headerbackground.jpeg);
