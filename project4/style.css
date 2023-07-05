@@ -3,7 +3,7 @@ body {
     color: #000000;
     background-color: #b8b8b8;
 }
-header { 
+header {
     background-image: url(headerbackground.jpeg);
     font-size: 50px;
     padding: 70px;
@@ -38,7 +38,7 @@ nav a {
 }
 nav a:hover {
     background-color: #ffffff;
-    color: rgb(255, 170, 170);
+    color: rgb(254, 157, 230);
     margin: 0;
 }
 h1 {
